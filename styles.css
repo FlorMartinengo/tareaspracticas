@@ -1,0 +1,134 @@
+.flex-container {
+    display:flex;
+    background-color: rgb(250, 246, 234);
+    border-bottom: 1px solid rgb(172, 172, 172);
+    padding: 20px;
+}
+
+.nav-link{
+    color:rgb(0, 0, 0);
+}
+
+
+body{
+    background: linear-gradient(rgb(250, 246, 234) 0%, rgba(255, 248, 227) 35%, rgb(255, 254, 249) 72%, rgb(255, 255, 255) 100%);
+    background-repeat: no-repeat;
+}
+
+footer{
+    display: flex, table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.carousel-inner{
+    width:1000px;
+    height:500px;
+}
+
+div{
+    padding: 20px
+}
+
+
+#reserva{
+    background-color: whitesmoke;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    height: 110px;
+    align-items: flex-end;
+    text-decoration-color: black;
+}
+
+
+nav ul {
+   display: flex;
+   text-decoration: none
+}
+
+
+nav li{
+    margin-left: 20px;
+    list-style: none
+}
+
+nav a{
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+
+nav a:hover{
+    color: rgb(248, 248, 248);
+    background-color: rgb(188, 171, 159);
+    text-decoration: none;
+}
+
+
+nav img{
+    display: flex;
+    max-height: 115px;
+    width: auto
+}
+
+
+.menuButton{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 20px
+}
+
+.inicio{
+    display:flex;
+    justify-content: center;
+    align-items: center
+}
+
+.card-group{
+    background-color: burlywood;
+}
+
+/*
+.form-label{
+    line-height: 0px;
+}
+*/
+
+  a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: #5d3d24;
+  }
+  
+  a:visited {
+    color: #5a4a25;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #ffe2b8;
+  }
+  
+  /*
+  a:hover {
+    border-bottom: 1px solid;
+    background: #d6cbb2;
+    text-decoration: none;
+    color:#5d3d24
+  }
+
+  .contacto:hover{
+    background-color: none;
+
+  }
+  */
